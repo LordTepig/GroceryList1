@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChooseItemFragment">
+
+    <Button
+        android:id="@+id/peanut_butter_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/peanut_butter"
+        android:backgroundTint="#A05211"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/milk_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:backgroundTint="#E6E6E2"
+        app:layout_constraintTop_toBottomOf="@id/peanut_butter_button"
+        app:layout_constraintStart_toStartOf="@id/peanut_butter_button"
+        app:layout_constraintEnd_toEndOf="@id/peanut_butter_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/bread_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bread"
+        android:backgroundTint="#BC9051"
+        app:layout_constraintTop_toBottomOf="@id/milk_button"
+        app:layout_constraintStart_toStartOf="@id/peanut_butter_button"
+        app:layout_constraintEnd_toEndOf="@id/peanut_butter_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/grapes_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/grapes"
+        android:backgroundTint="#925AF5"
+        app:layout_constraintTop_toBottomOf="@id/bread_button"
+        app:layout_constraintStart_toStartOf="@id/bread_button"
+        app:layout_constraintEnd_toEndOf="@id/bread_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/strawberries_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strawberries"
+        android:backgroundTint="#E11E07"
+        app:layout_constraintTop_toBottomOf="@id/grapes_button"
+        app:layout_constraintStart_toStartOf="@id/grapes_button"
+        app:layout_constraintEnd_toEndOf="@id/grapes_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/pasta_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pasta"
+        android:backgroundTint="#C8C279"
+        app:layout_constraintTop_toBottomOf="@id/strawberries_button"
+        app:layout_constraintStart_toStartOf="@id/strawberries_button"
+        app:layout_constraintEnd_toEndOf="@id/strawberries_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/meatballs_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/meatballs"
+        android:backgroundTint="#A9401E"
+        app:layout_constraintTop_toBottomOf="@id/pasta_button"
+        app:layout_constraintStart_toStartOf="@id/pasta_button"
+        app:layout_constraintEnd_toEndOf="@id/pasta_button"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/orange_juice_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/orange_juice"
+        android:backgroundTint="#FF6F05 "
+        app:layout_constraintTop_toBottomOf="@id/meatballs_button"
+        app:layout_constraintStart_toStartOf="@id/meatballs_button"
+        app:layout_constraintEnd_toEndOf="@id/meatballs_button"
+        >
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
